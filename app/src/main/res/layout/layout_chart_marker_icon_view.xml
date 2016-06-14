@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.pwittchen.weathericonview.WeatherIconView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ivWeatherIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="10"
+    custom:weatherIconColor="@android:color/black"
+    custom:weatherIconResource="@string/wi_day_sunny_overcast"
+    custom:weatherIconSize="24" />
